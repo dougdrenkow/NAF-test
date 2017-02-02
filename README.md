@@ -1,4 +1,4 @@
-# [![Web Starter Kit](https://cloud.githubusercontent.com/assets/110953/11445049/f05512ba-9520-11e5-8fdb-8c8eb5f690d0.jpg)](https://github.com/google/web-starter-kit/releases/latest)
+Because this test involved using Gulp and BrowserSync, I thought it would be a good match for using Google's Web Starter Kit as a starting point, which offers many advantages:
 
 ## Overview
 
@@ -19,17 +19,6 @@
 | Offline support                     | Thanks to our baked in [Service Worker](http://www.html5rocks.com/en/tutorials/service-worker/introduction/) [pre-caching](https://github.com/google/web-starter-kit/blob/master/gulpfile.babel.js#L226), sites deploying `dist` to a HTTPS domain will enjoy offline support. This is made possible by [sw-precache](https://github.com/GoogleChrome/sw-precache/).                                                                                                                                              |
 | PageSpeed Insights                     | Web performance metrics showing how well your site performs on mobile and desktop (Run `gulp pagespeed`)                                                                                                                                                    |
 
-## Quickstart
-
-[Download](https://github.com/google/web-starter-kit/releases/latest) the kit or clone this repository and build on what is included in the `app` directory.
-
-There are two HTML starting points, from which you can choose:
-
-- `index.html` - the default starting point, containing Material Design layout.
-- `basic.html` - no layout, but still includes our minimal mobile best-practices
-
-Be sure to look over the [installation docs](docs/install.md) to verify your environment is prepared to run WSK.
-Once you have verified that your system can run WSK, check out the [commands](docs/commands.md) available to get started.
 
 ## Web Performance
 
@@ -48,30 +37,4 @@ At present, we officially aim to support the last two versions of the following 
 
 This is not to say that Web Starter Kit cannot be used in browsers older than those reflected, but merely that our focus will be on ensuring our layouts work great in the above.
 
-## Troubleshooting
-
-If you find yourself running into issues during installation or running the tools, please check our [Troubleshooting](https://github.com/google/web-starter-kit/wiki/Troubleshooting) guide and then open an [issue](https://github.com/google/web-starter-kit/issues). We would be happy to discuss how they can be solved.
-
-## A Boilerplate-only Option
-
-If you would prefer not to use any of our tooling, delete the following files from the project: `package.json`, `gulpfile.babel.js` and `.travis.yml`. You can now safely use the boilerplate with an alternative build-system or no build-system at all if you choose.
-
-## Docs and Recipes
-
-* [File Appendix](https://github.com/google/web-starter-kit/blob/master/docs/file-appendix.md) - What do the different files here do?
-* [Using Material Design Lite's Sass](https://github.com/google/web-starter-kit/blob/master/docs/mdl-sass.md) - how to get MDL's Sass working with WSK
-* [Deployment guides](https://github.com/google/web-starter-kit/blob/master/docs/deploy.md) - available for Firebase, Google App Engine and other services.
-* [Gulp recipes](https://github.com/gulpjs/gulp/tree/master/docs/recipes) - the official Gulp recipes directory includes a comprehensive list of guides for different workflows you can add to your project.
-
-## Inspiration
-
-Web Starter Kit is inspired by [Mobile HTML5 Boilerplate](https://html5boilerplate.com/mobile/) and Yeoman's [generator-gulp-webapp](https://github.com/yeoman/generator-webapp), having taken input from contributors to both projects during development. Our [FAQs](https://github.com/google/web-starter-kit/wiki/FAQ) attempt to answer commonly asked questions about the project.
-
-## Contributing
-
-Contributions, questions and comments are all welcome and encouraged. For code contributions to Web Starter Kit, please see our [Contribution guide](CONTRIBUTING.md) before submitting a pull request. [Website](https://developers.google.com/web/tools/starter-kit/) related issues should be filed on the [Web Fundamentals](https://github.com/google/WebFundamentals/issues/new) issue tracker.
-
-## License
-
-Apache 2.0  
-Copyright 2015 Google Inc
+Copyright 2017 Google
