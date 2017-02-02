@@ -1,4 +1,4 @@
-Because this test involved using Gulp and BrowserSync, I thought it would be a good match for using Google's Web Starter Kit as a starting point, which offers many advantages:
+Because this test involved using Gulp and BrowserSync, I thought it would be a good match for using Google's Web Starter Kit as a starting point, which offers many advantages (and accounts for all those "contributors," above):
 
 ## Overview
 
